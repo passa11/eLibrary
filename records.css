@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  margin: auto;
+}
+
+header {
+  height: 835px;
+}
+
+.nav-area {
+  list-style: none;
+  padding: 30px;
+  text-align: center;
+}
+
+.nav-area li {
+  display: inline-block;
+}
+.nav-area li a {
+  color: black;
+  text-decoration: none;
+  padding: 5px 50px;
+  font-family: poppins;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.nav-area li a:hover {
+  background: skyblue;
+  color: white;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url(g1.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    flex-direction: column;
+    -webkit-background-size: cover;
+}
+/* Main content styles */
+.whole {
+    padding: 20px;
+/*    margin-bottom: 1%;*/
+}
+
+.main {
+    background-color: gainsboro;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-weight: 600;
+}
+
+input {
+    border: 2px solid #00c4ff;
+}
+
+input[type="text"], input[type="file"] {
+    width: 50%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #00c4ff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 500px;
+}
+
+button:hover {
+      background-color: #45a049;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px 12px;
+    text-align: left;
+}
+
+thead {
+    background-color: #45a049;
+    color: black;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+.read {
+    color: green;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.delete-link {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 10px;
+}

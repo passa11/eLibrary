@@ -1,0 +1,100 @@
+.wrapper {
+  height: inherit;
+}
+
+.nav-area {
+  list-style: none;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+.nav-area li {
+  display: inline-block;
+}
+
+.nav-area li a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 50px;
+  font-family: poppins;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.nav-area li a:hover {
+  background: skyblue;
+  color: black;
+}
+
+body {
+  background: url(g2.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  flex-direction: column;
+  -webkit-background-size: cover;
+  font-family: Arial, sans-serif;
+}
+
+.form {
+  width: 400px;
+  border: 2px solid skyblue;
+  padding: 30px;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 15px;
+}
+
+h2 {
+  text-align: center;
+  color: skyblue;
+  margin-bottom: 40px;
+}
+
+input {
+  display: block;
+  border: 2px solid skyblue;
+  width: 95%;
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 5px;
+}
+
+label {
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+}
+
+input[type="submit"] {
+  background-color: #00c4ff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 600px;
+}
+
+p {
+  text-align: center;
+  color: whitesmoke;
+}
+
+p a {
+  color: white;
+  text-decoration: none;
+}
+
+p a:hover {
+  color: #4CAF50;
+  text-decoration: underline;
+}
+
+.forlogin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

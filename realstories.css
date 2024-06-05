@@ -1,0 +1,102 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.wrapper {
+  height: inherit;
+}
+
+.nav-area {
+  list-style: none;
+  padding: 30px;
+  text-align: center;
+}
+
+.nav-area li {
+  display: inline-block;
+}
+
+.nav-area li a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 50px;
+  font-family: poppins;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.nav-area li a:hover {
+  background: skyblue;
+  color: black;
+}
+
+body {
+  background: url("real stories.png");
+  background-size: cover; /* Use 'cover' to make the image cover the entire page */
+  background-repeat: no-repeat; /* Prevent image repetition */
+  background-attachment: fixed; /* Keep the background fixed as the user scrolls */
+  /* background-color: blanchedalmond; */
+}
+
+.items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 30px 20px; /* Correct the padding syntax */
+  grid-column-gap: 20px;
+  grid-row-gap: 30px;
+}
+
+.item img {
+  width: 100%;
+  height: 300px;
+  object-fit: contain;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.item img:hover {
+  transform: scale(1.1);
+}
+
+.item h4 {
+  padding: 5px;
+  text-align: center;
+  color: white;
+}
+
+.item a {
+  padding: 5px 3px; /* Correct the padding syntax */
+  border: none;
+  outline: none;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 20px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  text-decoration: none;
+}
+
+.item a:hover {
+  background-color: green;
+}
+
+footer {
+  background: url(bg.jpg) no-repeat center;
+  color: #fff;
+  padding: 40px;
+  text-align: center;
+}
+
+.copyright {
+  font-size: 17px;
+}
+
+.copyright a {
+  font-size: 18px;
+  color: #48dbfb;
+  font-weight: 500;
+}
